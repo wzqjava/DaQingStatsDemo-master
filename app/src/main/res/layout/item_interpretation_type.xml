@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_type_item"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_type"
+        android:layout_width="120dp"
+        android:layout_height="50dp">
+
+        <View
+            android:id="@+id/v_line"
+            android:background="@drawable/selector_data_release"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:text="进度分析"
+            android:textSize="20sp"
+            android:textColor="@color/selector_text"
+            android:gravity="center"
+            android:layout_below="@id/v_line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

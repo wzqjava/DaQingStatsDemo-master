@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/base_background"
+    android:orientation="vertical">
+
+    <!--<include
+        android:id="@id/register_head"
+        layout="@layout/home_head"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip" />-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip"
+        android:background="@android:color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/color_blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="邮        箱"
+                android:textColor="@android:color/background_dark" />
+
+            <EditText
+                android:id="@+id/register_youxiang"
+                android:layout_width="0.0dip"
+                android:layout_height="40.0dip"
+                android:layout_weight="3.0"
+                android:background="@android:color/transparent"
+                android:hint="邮箱@符号之前最少4个字符" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/color_blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="密        码"
+                android:textColor="@android:color/background_dark" />
+
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3.0"
+                android:background="@android:color/transparent"
+                android:hint="请输入密码"
+                android:password="true" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/color_blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="密保问题"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/text_select_wt"
+                android:layout_width="0.0dip"
+                android:layout_height="40.0dip"
+                android:layout_weight="3.0"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="点击选择密保护问题"
+                android:textSize="18.0dip" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/color_blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="密保答案"
+                android:textColor="@android:color/background_dark" />
+
+            <EditText
+                android:id="@+id/register_wtda"
+                android:layout_width="0.0dip"
+                android:layout_height="40.0dip"
+                android:layout_weight="3.0"
+                android:background="@android:color/transparent"
+                android:hint="" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/color_blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="手  机  号"
+                android:textColor="@android:color/background_dark" />
+
+            <EditText
+                android:id="@+id/register_sjh"
+                android:layout_width="0.0dip"
+                android:layout_height="40.0dip"
+                android:layout_weight="3.0"
+                android:background="@android:color/transparent"
+                android:hint="" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/color_blue" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_margin="8.0dip"
+        android:text="注册" />
+    
+</LinearLayout>

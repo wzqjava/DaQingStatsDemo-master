@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="url">
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic1xjab4j30ci08cjrv.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic21363tj30ci08ct96.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic259ohaj30ci08c74r.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2b16zuj30ci08cwf4.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2e7vsaj30ci08cglz.jpg</item>
+    </array>
+
+    <array name="url1">
+        <item>http://img.zcool.cn/community/01700557a7f42f0000018c1bd6eb23.jpg</item>
+    </array>
+    <array name="url2">
+        <item>http://img.zcool.cn/community/01d28457d621800000018c1bb7877e.jpg</item>
+        <item>http://img.zcool.cn/community/01ae5656e1427f6ac72531cb72bac5.jpg</item>
+    </array>
+    <array name="url4">
+        <item>http://img.zcool.cn/community/01b72057a7e0790000018c1bf4fce0.png</item>
+        <item>http://img.zcool.cn/community/01fca557a7f5f90000012e7e9feea8.jpg</item>
+        <item>http://img.zcool.cn/community/01996b57a7f6020000018c1bedef97.jpg</item>
+        <item>http://img.zcool.cn/community/01700557a7f42f0000018c1bd6eb23.jpg</item>
+    </array>
+    <array name="title">
+        <item>51巅峰钜惠</item>
+        <item>十大星级品牌联盟，全场2折起</item>
+        <item>生命不是要超越别人，而是要超越自己。</item>
+        <item>己所不欲，勿施于人。——孔子</item>
+        <item>嗨购5折不要停</item>
+    </array>
+    <array name="demo_list">
+        <item>banner动画预览</item>
+        <item>banner内置样式预览</item>
+        <item>banner指示器位置设置预览</item>
+        <item>banner一些自定义样式方法预览</item>
+        <item>banner加载本地图片</item>
+        <item>自定义ViewPager</item>
+        <item>！！banner更多用法请看文档，这里就不一一列举了！</item>
+    </array>
+    <array name="anim">
+        <item>Default</item>
+        <item>Accordion</item>
+        <item>BackgroundToForeground</item>
+        <item>ForegroundToBackground</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>DepthPage</item>
+        <item>FlipHorizontal</item>
+        <item>FlipVertical</item>
+        <item>RotateDown</item>
+        <item>RotateUp</item>
+        <item>ScaleInOut</item>
+        <item>Stack</item>
+        <item>Tablet</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>ZoomOutSlide</item>
+    </array>
+    <string-array name="style">
+        <item>NOT_INDICATOR</item>
+        <item>CIRCLE_INDICATOR</item>
+        <item>NUM_INDICATOR</item>
+        <item>NUM_INDICATOR_TITLE</item>
+        <item>CIRCLE_INDICATOR_TITLE</item>
+        <item>CIRCLE_INDICATOR_TITLE_INSIDE</item>
+    </string-array>
+    <string-array name="indicator">
+        <item>LEFT</item>
+        <item>CENTER</item>
+        <item>RIGHT</item>
+    </string-array>
+
+
+    <string-array name="item_names" >
+        <item>数据发布</item>
+        <item>数据解读</item>
+        <item>数据查询</item>
+        <item>国际数据</item>
+        <item>数据地图</item>
+    </string-array>
+
+    <string-array name="item_urls" >
+        <item>http://tjj.daqing.gov.cn/gzdt/24142.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24131.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24122.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24117.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24116.htm</item>
+    </string-array>
+
+
+    <string-array name="data_interpretation_titles">
+        <item>关于对少数民族乡镇发展状况的调查报告</item>
+        <item>局长于灿亮主持召开全市服务业及工业统计推进会</item>
+        <item>大庆市统计局对贯彻落实省第十二次党代会精神作出部署</item>
+        <item>我局参加“重走创业路 踏上新征程”全市弘扬传承大庆精神铁人精神万人健步走活动</item>
+        <item>副市长冯忠宏会见了省农业普查事后质量抽查组一行</item>
+        <item>局长于灿亮参加九届七次常委（扩大）会议</item>
+        <item>局长于灿亮参加大庆市第十届人民代表大会常务委员会第二次会议</item>
+        <item>于灿亮任大庆市统计局党组书记、局长</item>
+        <item>副支队长刘俊峰参加党代会报告征求意见座谈会</item>
+        <item>副局长赵汉德参加全省建设领域统计制度布置会议</item>
+        <item>副局长赵汉德参加市委中心组理论学习</item>
+        <item>支队长于灿亮参加政府常务会议</item>
+        <item>副局长赵汉德参加安居工程审计会议</item>
+        <item>支队长于灿亮、副支队长刘俊峰参加收听收看全国农业普查电视电话会议</item>
+        <item>赵树民等局领导参加我市八届十次党代会</item>
+    </string-array>
+
+
+    <string-array name="data_interpretation_time">
+        <item>2016-07-11</item>
+        <item>2017-05-19</item>
+        <item>2017-05-12</item>
+        <item>2017-05-11</item>
+        <item>2017-05-06</item>
+        <item>2017-05-06</item>
+        <item>2017-04-26</item>
+        <item>2017-04-26</item>
+        <item>2016-12-20</item>
+        <item>2016-12-20</item>
+        <item>2016-12-16</item>
+        <item>2016-12-14</item>
+        <item>2016-12-13</item>
+        <item>2016-12-02</item>
+        <item>2016-11-30</item>
+    </string-array>
+
+    <string-array name="data_interpretation_urls">
+        <item>http://tjj.daqing.gov.cn/xqgc/dyjj/23851.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24142.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24131.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24122.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24117.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24116.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24102.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24101.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24029.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24022.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24012.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24011.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/24004.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/23993.htm</item>
+        <item>http://tjj.daqing.gov.cn/gzdt/23984.htm</item>
+    </string-array>
+
+    <string-array name="data_interpretation_img_urls">
+        <item>http://www.weidong.gov.cn/images/15/07/03/i7tmqt0jm1/14e52f5b017.jpg</item>
+        <item>http://www.suqian.gov.cn/stjj/tjtpxw/201705/e1aae8e2bfab447880e1c86c4bb71c87/images/95c19833a4de4cce98d340b1f35c6f47.jpg</item>
+        <item>http://www.suqian.gov.cn/stjj/tjtpxw/201705/e1aae8e2bfab447880e1c86c4bb71c87/images/30453b51378d465baa8e14d6cd1e57da.jpg</item>
+        <item>http://www.suqian.gov.cn/stjj/tjtpxw/201412/c5611620956c49f7969834bfa81340b0/images/66d1b38e75b54fa391087edd90876be2.jpg</item>
+        <item>http://upload.ahwang.cn/2015/1117/1447724124258.jpg</item>
+        <item>http://www.huiyangzy.com/upimg/userup/1307/220952052630.jpg</item>
+        <item>http://img.hibor.com.cn/sinaImg/201704/ZDCY-fyepsch1937764.jpg</item>
+        <item>http://sh.eastday.com/eastday/shnews/slideshow/20130627_01/images/02309909.jpg</item>
+        <item>http://upload.ahwang.cn/2015/1117/1447724124258.jpg</item>
+        <item>http://www.linquan.gov.cn/UploadFiles/lqzq/2013/10/201310160941365904.JPG</item>
+        <item>http://www.qhnews.com/pic/0/00/59/39/593975_935836.jpg</item>
+        <item>http://www.suqian.gov.cn/stjj/tjtpxw/201404/a79db2dd178c41039e2a3de3b5beda65/images/965ff1208d07428fb8238f4665990689.jpg</item>
+        <item>http://tjj.xjbt.gov.cn/upload/resources/image/2015/09/22/61295.jpg</item>
+        <item>http://stats.bjtzh.gov.cn/n5244961/n7979830/c10382956/part/10382968.JPG</item>
+        <item>http://www.hainan.gov.cn/upload/2012/06/76797/1339142597.jpg</item>
+    </string-array>
+
+
+</resources>

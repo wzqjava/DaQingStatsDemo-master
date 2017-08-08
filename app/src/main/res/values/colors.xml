@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="c_33ffff">#33ffff</color>
+    <color name="c_4187fc">#4187fc</color>
+
+
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="default_circle_indicator_fill_color">#ffffffff</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+    <color name="default_line_indicator_selected_color">#ff33b5e5</color>
+    <color name="default_line_indicator_unselected_color">#ffbbbbbb</color>
+    <color name="default_title_indicator_footer_color">#ff33b5e5</color>
+    <color name="default_title_indicator_selected_color">#ffffffff</color>
+    <color name="default_title_indicator_text_color">#bbffffff</color>
+    <color name="default_underline_indicator_selected_color">#ff33b5e5</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="huatucolor">#fff8a20f</color>
+    <color name="color_blue2">#ff45a7f2</color>
+    <color name="color_blue3">#ffe8f2fe</color>
+    <color name="myrea">#ffc60025</color>
+    <color name="color_black">#ff000000</color>
+    <color name="color_fuhei">#ff444444</color>
+    <color name="color_green">#ff00ff00</color>
+    <color name="color_yellow">#ff00fcff</color>
+    <color name="color_blue">#ffdcdcdc</color>
+    <color name="color_blues">#ff51acf2</color>
+    <color name="base_background">#fff0f0f0</color>
+    <color name="base_background1">#fff5f5f5</color>
+    <color name="base_background2">#ff000000</color>
+    <color name="xuxian">#88000000</color>
+    <color name="head_background">#fff9f9f9</color>
+    <color name="base_line">#ffdcdcdc</color>
+    <color name="base_text">#ff929292</color>
+    <color name="hometext_color">#ff888888</color>
+    <color name="base_text1">#99000000</color>
+    <color name="base_ziti">#ff707070</color>
+    <color name="base_text2">#ff515151</color>
+    <color name="base_btnbg">#fff5f5f5</color>
+    <color name="background_gray">#bb969696</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="profile_friend_item_subscribe_bg_normal">#ffcc3131</color>
+    <color name="subscribe_activity_bg">#ffefefef</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="profile_friend_item_subscribe_bg_pressed">#ff980000</color>
+    <color name="subscribe_item_selected_bg_night">#ff252525</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_disabled_bg_night">#ff2b2b2b</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="subscribe_tip_text">#ff2e2e2e</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_seperate_line">#ffcdcdcd</color>
+    <color name="subscribe_seperate_line_night">#ff464646</color>
+    <color name="subscribe_bg">#fff5f5f5</color>
+
+
+    <color name="theme_color_primary">#2196F3</color>
+    <color name="theme_color_primary_dark">#2196F3</color>
+    <color name="theme_color_primary_trans">#2196F3</color>
+
+    <!-- theme color -->
+    <color name="pink">#fb7299</color>
+    <color name="pink_dark">#b85671</color>
+    <color name="pink_trans">#99f0486c</color>
+
+    <color name="blue">#2196F3</color>
+    <color name="blue_dark">#2196F3</color>
+    <color name="blue_trans">#2196F3</color>
+
+    <color name="purple">#c0bcc7</color>
+    <color name="purple_dark">#c0bcc7</color>
+    <color name="purple_trans">#c0bcc7</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="green_dark">#2E7D32</color>
+    <color name="green_trans">#994CAF50</color>
+
+    <color name="green_light">#8BC34A</color>
+    <color name="green_light_dark">#558B2F</color>
+    <color name="green_light_trans">#998BC34A</color>
+
+    <color name="yellow">#FDD835</color>
+    <color name="yellow_dark">#FBC02D</color>
+    <color name="yellow_trans">#99FDD835</color>
+
+    <color name="orange">#FF9800</color>
+    <color name="orange_dark">#EF6C00</color>
+    <color name="orange_trans">#99FF9800</color>
+
+    <color name="red">#F44336</color>
+    <color name="red_dark">#F44336</color>
+    <color name="red_trans">#F44336</color>
+
+</resources>

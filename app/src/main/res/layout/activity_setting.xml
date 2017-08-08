@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background"
+    tools:context="com.stats.daqing.feature.activity.SettingActivity">
+
+
+    <com.bilibili.magicasakura.widgets.TintToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        toolbar:navigationIcon="?attr/homeAsUpIndicator"
+        toolbar:theme="@style/toolbar_white_theme"
+        android:background="@color/theme_color_primary"
+        toolbar:elevation="4dp">
+
+        <TextView
+            android:text="设  置"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+
+    </com.bilibili.magicasakura.widgets.TintToolbar>
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!-- 个人信息 -->
+        <RelativeLayout
+            android:id="@+id/rl_personal_info"
+            android:layout_marginTop="20dp"
+            android:background="@color/color_white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:text="个人信息"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_arrow_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+        <!-- 关于 -->
+        <RelativeLayout
+            android:id="@+id/rl_about"
+            android:layout_marginTop="20dp"
+            android:background="@color/color_white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:text="关于"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_arrow_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <!-- 退出登录 -->
+        <RelativeLayout
+            android:id="@+id/rl_exit"
+            android:layout_marginTop="20dp"
+            android:background="@color/color_white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:text="退             出"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

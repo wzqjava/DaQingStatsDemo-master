@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="match_parent"
+    android:layout_height="100dip"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_info"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:src="@drawable/def"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_toRightOf="@id/iv_info"
+        android:layout_alignTop="@id/iv_info"
+        android:text="关于对少数民族乡镇发展状况的调查报告"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"/>
+
+    <TextView
+        android:id="@+id/tv_down"
+        android:text="下载"
+        android:textSize="16sp"
+        android:textColor="@color/c_4187fc"
+        android:layout_toRightOf="@id/iv_info"
+        android:layout_alignBottom="@id/iv_info"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical"
+        android:layout_width="60dp"
+        android:layout_height="20dp" />
+
+
+    <TextView
+        android:id="@+id/tv_create_time"
+        android:text="2016-07-11"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/iv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

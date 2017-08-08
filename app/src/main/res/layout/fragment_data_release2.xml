@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ExpandableListView
+        android:id="@+id/elv_content"
+        android:groupIndicator="@null"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ExpandableListView>
+
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_month"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/v_line1"
+                android:background="@drawable/selector_data_release"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_month"
+                android:text="月度数据"
+                android:textSize="20sp"
+                android:textColor="@color/selector_text"
+                android:gravity="center"
+                android:layout_below="@id/v_line1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_season"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/v_line2"
+                android:background="@drawable/selector_data_release"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_season"
+                android:text="季度数据"
+                android:textSize="20sp"
+                android:textColor="@color/selector_text"
+                android:gravity="center"
+                android:layout_below="@id/v_line2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_year"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/v_line3"
+                android:background="@drawable/selector_data_release"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_year"
+                android:text="年度数据"
+                android:textSize="20sp"
+                android:textColor="@color/selector_text"
+                android:gravity="center"
+                android:layout_below="@id/v_line3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

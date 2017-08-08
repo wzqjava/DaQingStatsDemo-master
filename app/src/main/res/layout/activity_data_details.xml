@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.stats.daqing.feature.activity.DataDetailsActivity">
+
+    <com.bilibili.magicasakura.widgets.TintToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:theme="@style/toolbar_white_theme"
+        android:background="@color/theme_color_primary"
+        app:elevation="4dp">
+
+        <TextView
+            android:text="数据大庆"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.bilibili.magicasakura.widgets.TintToolbar>
+
+    <ProgressBar
+        android:id="@+id/myProgressBar"
+        android:layout_below="@id/toolbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15px"
+        />
+
+    <RelativeLayout
+        android:layout_below="@id/myProgressBar"
+        android:layout_above="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            tools:text="国家统计局贸易外经司高级统计师解读2017年4月份社会消费品零售总额数据"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            tools:text="2017-05-13"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:id="@+id/v_line"
+            android:layout_below="@id/tv_time"
+            android:background="@color/background_gray"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_below="@id/v_line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

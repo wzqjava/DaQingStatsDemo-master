@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_child_name"
+    android:text="农产品生产价格指数"
+    android:textSize="16sp"
+    android:paddingLeft="40dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/share_line1"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent" android:layout_height="60dp">
+
+</TextView>
